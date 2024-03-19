@@ -4,7 +4,7 @@ if ("" -eq $exe) {
     exit
 }
 
-$tunnnelId = ""
+$tunnelId = ""
 $envFile = "env\.env.local"
 $envFileContent = Get-Content $envFile
 $envFileContent | ForEach-Object {
